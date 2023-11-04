@@ -1,0 +1,23 @@
+@media (max-width: 700px){
+    .header-pics{
+        justify-content: space-around;
+    }
+    .pic-table{
+        width: 100%!important;
+    }
+}
+
+@media (max-width: 596.98px){
+    .first-dn{
+        flex-direction: column!important;
+        align-items: center;
+    }
+    .first-dn > *{
+        margin: 10px;
+        width: 100%!important;
+        text-align: center;
+    }
+    .first-dn form button{
+        width: 100%!important;
+    }
+}
