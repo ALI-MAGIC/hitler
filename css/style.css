@@ -159,7 +159,7 @@ footer .footer-inner h1{
     background-color: rgba(85, 85, 85, 0.678);
 }
 
-footer .footer-inner a{
+.github-icon{
     position: relative;
     color: #bbb;
     margin: 10px;
@@ -169,10 +169,24 @@ footer .footer-inner a{
     transition: color .2s ease-in-out;
 }
 
-footer .footer-inner a:hover{
+.github-icon:hover{
     color: #fff;
 }
 
 .hitler-txt{
     width: 15%;
+}
+
+.sources button{
+    color: #bbb;
+    outline: none;
+    border: none;
+    font-size: 1.5vw;
+    text-decoration: none;
+    background-color: transparent;
+    transition: color .3s ease-in-out;
+}
+
+.sources button:hover{
+    color: #888;
 }
