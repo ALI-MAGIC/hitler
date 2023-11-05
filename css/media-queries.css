@@ -21,3 +21,9 @@
         width: 100%!important;
     }
 }
+
+@media (max-width: 500px){
+    .sources button{
+        font-size: 2.5vw!important;
+    }
+}
